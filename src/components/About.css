@@ -1,0 +1,53 @@
+.banner{
+    width: 100%;
+
+   height: 600px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../public/PLATINUM-LODGEgb.png');
+
+ 
+   
+}
+.banner-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18%;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+
+  
+}
+.banner-container{
+   float: left;
+   width: 100%;
+}
+
+.welcome{
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+    float: left;
+   
+  
+   
+}
+
+.description{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+
+}
+.description p{
+    width: 70%;
+    line-height: 2;
+}
